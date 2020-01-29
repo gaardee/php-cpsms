@@ -1,0 +1,24 @@
+{
+  "name": "gaardee/php-cpsms",
+  "description": "Send sms with smsprovider cpsms.dk API version 2",
+  "type": "library",
+  "keywords": [
+    "cpsms",
+    "compaya",
+    "sms"
+  ],
+  "authors": [
+    {
+      "name": "Emil Gaarde",
+      "email": "gaardee@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Gaardee\\PHPcpsms\\": "src/"
+    }
+  }
+}
